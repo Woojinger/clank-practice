@@ -1,0 +1,11 @@
+[package]
+name = 'clank'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = { local = "../aptos-core/aptos-move/framework/aptos-framework"}
+
+[addresses]
+clank = "0xe08dc4ff26a36e7df635f9a6f3a9003943b91e7918a6012587b2ea059dca6a70"
+origin_account = "0xcafe"
+resource_account = "0xc3bb8488ab1a5815a9d543d7e41b0e0df46a7396f89b22821f07a4362f75ddc5"
